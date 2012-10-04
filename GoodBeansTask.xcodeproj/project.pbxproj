@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05111F1C161E04EC00450A72 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05111F1E161E04EC00450A72 /* Localizable.strings */; };
+		05111F21161E08A100450A72 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05111F23161E08A100450A72 /* MainViewController.xib */; };
+		05111F25161E0B4A00450A72 /* SelectedPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05111F27161E0B4A00450A72 /* SelectedPersonViewController.xib */; };
+		05111F29161E0D3800450A72 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05111F2B161E0D3800450A72 /* InfoViewController.xib */; };
+		05111F30161E0FBB00450A72 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 05111F2E161E0F2500450A72 /* Status.m */; };
 		05943531161D981400D6516E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943530161D981400D6516E /* UIKit.framework */; };
 		05943533161D981400D6516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943532161D981400D6516E /* Foundation.framework */; };
 		05943535161D981400D6516E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943534161D981400D6516E /* CoreGraphics.framework */; };
@@ -18,9 +23,25 @@
 		05943547161D981400D6516E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05943546161D981400D6516E /* Default@2x.png */; };
 		05943549161D981400D6516E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05943548161D981400D6516E /* Default-568h@2x.png */; };
 		0594354C161D981400D6516E /* GoodBeansTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0594354A161D981400D6516E /* GoodBeansTask.xcdatamodeld */; };
+		05943555161D989100D6516E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943553161D989100D6516E /* MainViewController.m */; };
+		05943559161D99F800D6516E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943558161D99F800D6516E /* Person.m */; };
+		0594355D161D9AC200D6516E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594355B161D9AC200D6516E /* InfoViewController.m */; };
+		05943562161D9AD700D6516E /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943560161D9AD700D6516E /* PersonListViewController.m */; };
+		05943563161D9AD700D6516E /* PersonListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05943561161D9AD700D6516E /* PersonListViewController.xib */; };
+		05943568161DB1F200D6516E /* SelectedPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943566161DB1F100D6516E /* SelectedPersonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05111F1D161E04EC00450A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05111F20161E057F00450A72 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05111F22161E08A100450A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		05111F24161E08AF00450A72 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		05111F26161E0B4A00450A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SelectedPersonViewController.xib; sourceTree = "<group>"; };
+		05111F28161E0B5000450A72 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/SelectedPersonViewController.xib; sourceTree = "<group>"; };
+		05111F2A161E0D3800450A72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InfoViewController.xib; sourceTree = "<group>"; };
+		05111F2C161E0D3F00450A72 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/InfoViewController.xib; sourceTree = "<group>"; };
+		05111F2D161E0F2500450A72 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		05111F2E161E0F2500450A72 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 		0594352C161D981400D6516E /* GoodBeansTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodBeansTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05943530161D981400D6516E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05943532161D981400D6516E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +57,17 @@
 		05943546161D981400D6516E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		05943548161D981400D6516E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0594354B161D981400D6516E /* GoodBeansTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodBeansTask.xcdatamodel; sourceTree = "<group>"; };
+		05943552161D989100D6516E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		05943553161D989100D6516E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		05943557161D99F800D6516E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		05943558161D99F800D6516E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0594355A161D9AC200D6516E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		0594355B161D9AC200D6516E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		0594355F161D9AD700D6516E /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		05943560161D9AD700D6516E /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		05943561161D9AD700D6516E /* PersonListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonListViewController.xib; sourceTree = "<group>"; };
+		05943565161DB1F100D6516E /* SelectedPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedPersonViewController.h; sourceTree = "<group>"; };
+		05943566161DB1F100D6516E /* SelectedPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedPersonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +116,24 @@
 		05943538161D981400D6516E /* GoodBeansTask */ = {
 			isa = PBXGroup;
 			children = (
+				05943564161DA17F00D6516E /* Entities */,
 				05943541161D981400D6516E /* AppDelegate.h */,
 				05943542161D981400D6516E /* AppDelegate.m */,
 				0594354A161D981400D6516E /* GoodBeansTask.xcdatamodeld */,
 				05943539161D981400D6516E /* Supporting Files */,
+				05943552161D989100D6516E /* MainViewController.h */,
+				05943553161D989100D6516E /* MainViewController.m */,
+				05111F23161E08A100450A72 /* MainViewController.xib */,
+				0594355A161D9AC200D6516E /* InfoViewController.h */,
+				0594355B161D9AC200D6516E /* InfoViewController.m */,
+				05111F2B161E0D3800450A72 /* InfoViewController.xib */,
+				0594355F161D9AD700D6516E /* PersonListViewController.h */,
+				05943560161D9AD700D6516E /* PersonListViewController.m */,
+				05943561161D9AD700D6516E /* PersonListViewController.xib */,
+				05943565161DB1F100D6516E /* SelectedPersonViewController.h */,
+				05943566161DB1F100D6516E /* SelectedPersonViewController.m */,
+				05111F27161E0B4A00450A72 /* SelectedPersonViewController.xib */,
+				05111F1E161E04EC00450A72 /* Localizable.strings */,
 			);
 			path = GoodBeansTask;
 			sourceTree = "<group>";
@@ -104,6 +150,17 @@
 				05943548161D981400D6516E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05943564161DA17F00D6516E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				05111F2D161E0F2500450A72 /* Status.h */,
+				05111F2E161E0F2500450A72 /* Status.m */,
+				05943557161D99F800D6516E /* Person.h */,
+				05943558161D99F800D6516E /* Person.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +198,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 05943521161D981400D6516E;
 			productRefGroup = 0594352D161D981400D6516E /* Products */;
@@ -161,6 +219,11 @@
 				05943545161D981400D6516E /* Default.png in Resources */,
 				05943547161D981400D6516E /* Default@2x.png in Resources */,
 				05943549161D981400D6516E /* Default-568h@2x.png in Resources */,
+				05111F21161E08A100450A72 /* MainViewController.xib in Resources */,
+				05111F29161E0D3800450A72 /* InfoViewController.xib in Resources */,
+				05943563161D9AD700D6516E /* PersonListViewController.xib in Resources */,
+				05111F25161E0B4A00450A72 /* SelectedPersonViewController.xib in Resources */,
+				05111F1C161E04EC00450A72 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,15 +234,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05111F30161E0FBB00450A72 /* Status.m in Sources */,
 				0594353F161D981400D6516E /* main.m in Sources */,
 				05943543161D981400D6516E /* AppDelegate.m in Sources */,
 				0594354C161D981400D6516E /* GoodBeansTask.xcdatamodeld in Sources */,
+				05943555161D989100D6516E /* MainViewController.m in Sources */,
+				05943559161D99F800D6516E /* Person.m in Sources */,
+				0594355D161D9AC200D6516E /* InfoViewController.m in Sources */,
+				05943562161D9AD700D6516E /* PersonListViewController.m in Sources */,
+				05943568161DB1F200D6516E /* SelectedPersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		05111F1E161E04EC00450A72 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05111F1D161E04EC00450A72 /* en */,
+				05111F20161E057F00450A72 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		05111F23161E08A100450A72 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05111F22161E08A100450A72 /* en */,
+				05111F24161E08AF00450A72 /* de */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		05111F27161E0B4A00450A72 /* SelectedPersonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05111F26161E0B4A00450A72 /* en */,
+				05111F28161E0B5000450A72 /* de */,
+			);
+			name = SelectedPersonViewController.xib;
+			sourceTree = "<group>";
+		};
+		05111F2B161E0D3800450A72 /* InfoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05111F2A161E0D3800450A72 /* en */,
+				05111F2C161E0D3F00450A72 /* de */,
+			);
+			name = InfoViewController.xib;
+			sourceTree = "<group>";
+		};
 		0594353B161D981400D6516E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -212,7 +317,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -232,7 +337,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -246,6 +351,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoodBeansTask/GoodBeansTask-Prefix.pch";
 				INFOPLIST_FILE = "GoodBeansTask/GoodBeansTask-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +363,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoodBeansTask/GoodBeansTask-Prefix.pch";
 				INFOPLIST_FILE = "GoodBeansTask/GoodBeansTask-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +388,7 @@
 				05943551161D981400D6516E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
