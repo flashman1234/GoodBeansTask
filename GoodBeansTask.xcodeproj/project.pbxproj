@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05943531161D981400D6516E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943530161D981400D6516E /* UIKit.framework */; };
+		05943533161D981400D6516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943532161D981400D6516E /* Foundation.framework */; };
+		05943535161D981400D6516E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943534161D981400D6516E /* CoreGraphics.framework */; };
+		05943537161D981400D6516E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943536161D981400D6516E /* CoreData.framework */; };
+		0594353D161D981400D6516E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0594353B161D981400D6516E /* InfoPlist.strings */; };
+		0594353F161D981400D6516E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594353E161D981400D6516E /* main.m */; };
+		05943543161D981400D6516E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943542161D981400D6516E /* AppDelegate.m */; };
+		05943545161D981400D6516E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05943544161D981400D6516E /* Default.png */; };
+		05943547161D981400D6516E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05943546161D981400D6516E /* Default@2x.png */; };
+		05943549161D981400D6516E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05943548161D981400D6516E /* Default-568h@2x.png */; };
+		0594354C161D981400D6516E /* GoodBeansTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0594354A161D981400D6516E /* GoodBeansTask.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0594352C161D981400D6516E /* GoodBeansTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodBeansTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05943530161D981400D6516E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05943532161D981400D6516E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05943534161D981400D6516E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05943536161D981400D6516E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0594353A161D981400D6516E /* GoodBeansTask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodBeansTask-Info.plist"; sourceTree = "<group>"; };
+		0594353C161D981400D6516E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0594353E161D981400D6516E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05943540161D981400D6516E /* GoodBeansTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodBeansTask-Prefix.pch"; sourceTree = "<group>"; };
+		05943541161D981400D6516E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05943542161D981400D6516E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05943544161D981400D6516E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		05943546161D981400D6516E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		05943548161D981400D6516E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0594354B161D981400D6516E /* GoodBeansTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoodBeansTask.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05943529161D981400D6516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05943531161D981400D6516E /* UIKit.framework in Frameworks */,
+				05943533161D981400D6516E /* Foundation.framework in Frameworks */,
+				05943535161D981400D6516E /* CoreGraphics.framework in Frameworks */,
+				05943537161D981400D6516E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05943521161D981400D6516E = {
+			isa = PBXGroup;
+			children = (
+				05943538161D981400D6516E /* GoodBeansTask */,
+				0594352F161D981400D6516E /* Frameworks */,
+				0594352D161D981400D6516E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0594352D161D981400D6516E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0594352C161D981400D6516E /* GoodBeansTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0594352F161D981400D6516E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05943530161D981400D6516E /* UIKit.framework */,
+				05943532161D981400D6516E /* Foundation.framework */,
+				05943534161D981400D6516E /* CoreGraphics.framework */,
+				05943536161D981400D6516E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05943538161D981400D6516E /* GoodBeansTask */ = {
+			isa = PBXGroup;
+			children = (
+				05943541161D981400D6516E /* AppDelegate.h */,
+				05943542161D981400D6516E /* AppDelegate.m */,
+				0594354A161D981400D6516E /* GoodBeansTask.xcdatamodeld */,
+				05943539161D981400D6516E /* Supporting Files */,
+			);
+			path = GoodBeansTask;
+			sourceTree = "<group>";
+		};
+		05943539161D981400D6516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0594353A161D981400D6516E /* GoodBeansTask-Info.plist */,
+				0594353B161D981400D6516E /* InfoPlist.strings */,
+				0594353E161D981400D6516E /* main.m */,
+				05943540161D981400D6516E /* GoodBeansTask-Prefix.pch */,
+				05943544161D981400D6516E /* Default.png */,
+				05943546161D981400D6516E /* Default@2x.png */,
+				05943548161D981400D6516E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0594352B161D981400D6516E /* GoodBeansTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0594354F161D981400D6516E /* Build configuration list for PBXNativeTarget "GoodBeansTask" */;
+			buildPhases = (
+				05943528161D981400D6516E /* Sources */,
+				05943529161D981400D6516E /* Frameworks */,
+				0594352A161D981400D6516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodBeansTask;
+			productName = GoodBeansTask;
+			productReference = 0594352C161D981400D6516E /* GoodBeansTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05943523161D981400D6516E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Michal Thompson";
+			};
+			buildConfigurationList = 05943526161D981400D6516E /* Build configuration list for PBXProject "GoodBeansTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05943521161D981400D6516E;
+			productRefGroup = 0594352D161D981400D6516E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0594352B161D981400D6516E /* GoodBeansTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0594352A161D981400D6516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0594353D161D981400D6516E /* InfoPlist.strings in Resources */,
+				05943545161D981400D6516E /* Default.png in Resources */,
+				05943547161D981400D6516E /* Default@2x.png in Resources */,
+				05943549161D981400D6516E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05943528161D981400D6516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0594353F161D981400D6516E /* main.m in Sources */,
+				05943543161D981400D6516E /* AppDelegate.m in Sources */,
+				0594354C161D981400D6516E /* GoodBeansTask.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0594353B161D981400D6516E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0594353C161D981400D6516E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0594354D161D981400D6516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0594354E161D981400D6516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05943550161D981400D6516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodBeansTask/GoodBeansTask-Prefix.pch";
+				INFOPLIST_FILE = "GoodBeansTask/GoodBeansTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05943551161D981400D6516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodBeansTask/GoodBeansTask-Prefix.pch";
+				INFOPLIST_FILE = "GoodBeansTask/GoodBeansTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05943526161D981400D6516E /* Build configuration list for PBXProject "GoodBeansTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0594354D161D981400D6516E /* Debug */,
+				0594354E161D981400D6516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0594354F161D981400D6516E /* Build configuration list for PBXNativeTarget "GoodBeansTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05943550161D981400D6516E /* Debug */,
+				05943551161D981400D6516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0594354A161D981400D6516E /* GoodBeansTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0594354B161D981400D6516E /* GoodBeansTask.xcdatamodel */,
+			);
+			currentVersion = 0594354B161D981400D6516E /* GoodBeansTask.xcdatamodel */;
+			path = GoodBeansTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05943523161D981400D6516E /* Project object */;
+}
