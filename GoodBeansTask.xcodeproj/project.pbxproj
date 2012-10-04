@@ -12,6 +12,8 @@
 		05111F25161E0B4A00450A72 /* SelectedPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05111F27161E0B4A00450A72 /* SelectedPersonViewController.xib */; };
 		05111F29161E0D3800450A72 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05111F2B161E0D3800450A72 /* InfoViewController.xib */; };
 		05111F30161E0FBB00450A72 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 05111F2E161E0F2500450A72 /* Status.m */; };
+		05111F3B161E2DED00450A72 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05111F3A161E2DED00450A72 /* icon.png */; };
+		05111F3D161E2DF600450A72 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05111F3C161E2DF600450A72 /* icon@2x.png */; };
 		05943531161D981400D6516E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943530161D981400D6516E /* UIKit.framework */; };
 		05943533161D981400D6516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943532161D981400D6516E /* Foundation.framework */; };
 		05943535161D981400D6516E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05943534161D981400D6516E /* CoreGraphics.framework */; };
@@ -42,6 +44,8 @@
 		05111F2C161E0D3F00450A72 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/InfoViewController.xib; sourceTree = "<group>"; };
 		05111F2D161E0F2500450A72 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		05111F2E161E0F2500450A72 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		05111F3A161E2DED00450A72 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		05111F3C161E2DF600450A72 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 		0594352C161D981400D6516E /* GoodBeansTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodBeansTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05943530161D981400D6516E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05943532161D981400D6516E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,6 +145,8 @@
 		05943539161D981400D6516E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05111F3C161E2DF600450A72 /* icon@2x.png */,
+				05111F3A161E2DED00450A72 /* icon.png */,
 				0594353A161D981400D6516E /* GoodBeansTask-Info.plist */,
 				0594353B161D981400D6516E /* InfoPlist.strings */,
 				0594353E161D981400D6516E /* main.m */,
@@ -224,6 +230,8 @@
 				05943563161D9AD700D6516E /* PersonListViewController.xib in Resources */,
 				05111F25161E0B4A00450A72 /* SelectedPersonViewController.xib in Resources */,
 				05111F1C161E04EC00450A72 /* Localizable.strings in Resources */,
+				05111F3B161E2DED00450A72 /* icon.png in Resources */,
+				05111F3D161E2DF600450A72 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
